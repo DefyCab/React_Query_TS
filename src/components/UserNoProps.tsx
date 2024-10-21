@@ -1,16 +1,16 @@
-type User2Props = {
+type UserNoProps = {
   name: string;
   imageURL: string;
   imageSize: number;
 };
 
-const user: User2Props = {
+const user: UserNoProps = {
   name: "Love",
   imageURL: "https://ca.slack-edge.com/TA01UCHBN-U07J8U0R0DD-24739eb0a367-512",
   imageSize: 90,
 };
 
-export const User2 = () => {
+export const UserNoProps = () => {
   return (
     <>
       <article className="card">

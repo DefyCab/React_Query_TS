@@ -1,5 +1,4 @@
 import { ReactNode } from "react";
-import "../styles/User.css";
 
 type UserProps = {
   name: string;

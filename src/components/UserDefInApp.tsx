@@ -1,10 +1,10 @@
-export type User3Props = {
+export type UserDefInAppProps = {
   name: string;
   imageURL: string;
   style: React.CSSProperties;
 };
 
-export const User3 = ({ name, imageURL, style }: User3Props) => {
+export const UserDefInApp = ({ name, imageURL, style }: UserDefInAppProps) => {
   return (
     <article className="card-2">
       <h3></h3> {name}

@@ -1,35 +1,35 @@
 import { User } from "./components/User";
-import { User2 } from "./components/User2";
-import { User3, User3Props } from "./components/User3";
-import { UserInput } from "./components/UserInput";
+import { UserNoProps } from "./components/UserNoProps";
+import { UserDefInAppProps, UserDefInApp } from "./components/UserDefInApp";
+import "./styles/User.css";
 
-const love: User3Props = {
+const love: UserDefInAppProps = {
   name: "Love",
   imageURL: "https://ca.slack-edge.com/TA01UCHBN-U07J8U0R0DD-24739eb0a367-512",
-  style: { height: 90, width: 90, borderRadius: 50},
+  style: { height: 90, width: 90, borderRadius: 50 },
 };
 
 const App = () => {
   return (
     <>
       <section className="section">
-        <User2 />
-        <br />
+        <UserNoProps />
+
+        <UserDefInApp
+          name={love.name}
+          imageURL={love.imageURL}
+          style={love.style}
+        />
+
         <User
           h3style={{ color: "lightblue", fontWeight: "lighter" }}
-          imgstyle={{ height: 90, width: 90, borderRadius: 50 , marginTop: 10}}
+          imgstyle={{ height: 90, width: 90, borderRadius: 50, marginTop: 10 }}
           name="Love"
           age={45}
           imageUrl="https://ca.slack-edge.com/TA01UCHBN-U07J8U0R0DD-24739eb0a367-512"
         >
           Developer!
         </User>
-        <br />
-        <User3
-          name={love.name}
-          imageURL={love.imageURL}
-          style={love.style}
-        ></User3>
       </section>
     </>
   );
