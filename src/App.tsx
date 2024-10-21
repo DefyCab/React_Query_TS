@@ -6,7 +6,7 @@ import { UserInput } from "./components/UserInput";
 const love: User3Props = {
   name: "Love",
   imageURL: "https://ca.slack-edge.com/TA01UCHBN-U07J8U0R0DD-24739eb0a367-512",
-  style: { height: 90, width: 90, borderRadius: 50 },
+  style: { height: 90, width: 90, borderRadius: 50},
 };
 
 const App = () => {

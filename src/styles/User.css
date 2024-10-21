@@ -45,6 +45,9 @@ h1 {
   width: 20vw;
   height: 40vh;
   border: 0.08rem solid slategray;
+  font-weight: lighter;
+  font-size: x-large;
+  gap: 0.5rem;
 }
 
 .section {
