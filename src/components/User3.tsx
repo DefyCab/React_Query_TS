@@ -6,7 +6,7 @@ export type User3Props = {
 
 export const User3 = ({ name, imageURL, style }: User3Props) => {
   return (
-    <article className="card">
+    <article className="card-2">
       <h3></h3> {name}
       <img style={style} src={imageURL}></img>
     </article>
