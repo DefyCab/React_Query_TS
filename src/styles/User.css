@@ -1,10 +1,13 @@
 .container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  color: teal;
-  font-weight: lighter;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(218, 82, 218, 0.3);
+    width: 20vw;
+    height: 40vh;
+    border: 0.08rem solid slategray;
+  }
 
 h3 {
   margin: 0;
@@ -21,8 +24,8 @@ h3 {
   justify-content: center;
   align-items: center;
   background-color: rgba(13, 168, 168, 0.3);
-  width: 30vw;
-  height: 60vh;
+  width: 20vw;
+  height: 40vh;
   border: 0.08rem solid slategray;
 }
 
