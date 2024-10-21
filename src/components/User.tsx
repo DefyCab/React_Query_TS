@@ -1,19 +1,21 @@
 import { ReactNode } from "react";
+import "../styles/User.css";
 
 type UserProps = {
   name: string;
   age: number;
-  image?: HTMLImageElement;
   children: ReactNode;
+  h3style: React.CSSProperties;
 };
 
-export const User = ({ name, age, image, children }: UserProps) => {
+export const User = ({ name, age, children, h3style }: UserProps) => {
   return (
-    <>
-      <h3 className="name">Name: </h3> {name}
-      <h3>Age: </h3> {age}
-      <p></p>
+    <div className="container">
+      <h3 style={h3style}>Name:</h3>
+      {name}
+      <h3 style={h3style}>Age: </h3> {age}
+      <p className="content"></p>
       {children}
-    </>
+    </div>
   );
 };
