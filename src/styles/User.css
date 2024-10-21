@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(218, 82, 218, 0.3);
+  background-color: rgba(223, 197, 223, 0.3);
   width: 20vw;
   height: 40vh;
   border: 0.08rem solid slategray;
@@ -26,7 +26,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(13, 168, 168, 0.3);
+  background-color: rgba(167, 204, 204, 0.3);
   width: 20vw;
   height: 40vh;
   border: 0.08rem solid slategray;
@@ -41,7 +41,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(212, 244, 124, 0.3);
+  background-color: rgba(224, 228, 214, 0.3);
   width: 20vw;
   height: 40vh;
   border: 0.08rem solid slategray;
