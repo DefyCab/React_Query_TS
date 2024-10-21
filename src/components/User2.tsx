@@ -13,16 +13,18 @@ const user: UserProps = {
 export const User2 = () => {
   return (
     <>
-      <h1>{user.name}</h1>
-      <img
-        className="avatar"
-        src={user.imageURL}
-        alt={"Photo of " + user.name}
-        style={{
-          width: user.imageSize,
-          height: user.imageSize,
-        }}
-      />
+      <article className="card">
+        <h1>{user.name}</h1>
+        <img
+          className="avatar"
+          src={user.imageURL}
+          alt={"Photo of " + user.name}
+          style={{
+            width: user.imageSize,
+            height: user.imageSize,
+          }}
+        />
+      </article>
     </>
   );
 };
