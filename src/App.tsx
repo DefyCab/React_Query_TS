@@ -1,12 +1,13 @@
 // import { User } from "./components/User";
-// import { UserNoProps } from "./components/UserNoProps";
+import { UserNoProps } from "./components/UserNoProps";
 // import { UserDefInAppProps, UserDefInApp } from "./components/UserDefInApp";
-// // import "./styles/User.css";
+import "./styles/User.css";
 import { Route, Routes } from "react-router-dom";
 import { Home } from "./components/pages/Home";
 import { About } from "./components/pages/About";
 import { Navbar } from "./components/Navbar";
 import { Redirect } from "./components/pages/Redirect";
+import { TicTacToe } from "./components/TicTacToe";
 
 // const love: UserDefInAppProps = {
 //   name: "Love",
@@ -24,8 +25,9 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/redirect" element={<Redirect />} />
         </Routes>
-        {/* <UserNoProps />
-
+        <TicTacToe />
+        <UserNoProps />
+        {/* 
         <UserDefInApp
           name={love.name}
           imageURL={love.imageURL}
