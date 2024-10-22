@@ -1,0 +1,129 @@
+{
+    "prizes": [
+        {
+            "id": 1,
+            "year": "2024",
+            "category": "chemistry",
+            "laureates": [
+                {
+                    "id": "1039",
+                    "firstname": "David",
+                    "surname": "Baker",
+                    "motivation": "\"for computational protein design\"",
+                    "share": "2"
+                },
+                {
+                    "id": "1040",
+                    "firstname": "Demis",
+                    "surname": "Hassabis",
+                    "motivation": "\"for protein structure prediction\"",
+                    "share": "4"
+                },
+                {
+                    "id": "1041",
+                    "firstname": "John",
+                    "surname": "Jumper",
+                    "motivation": "\"for protein structure prediction\"",
+                    "share": "4"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "year": "2024",
+            "category": "economics",
+            "laureates": [
+                {
+                    "id": "1044",
+                    "firstname": "Daron",
+                    "surname": "Acemoglu",
+                    "motivation": "\"for studies of how institutions are formed and affect prosperity\"",
+                    "share": "3"
+                },
+                {
+                    "id": "1045",
+                    "firstname": "Simon",
+                    "surname": "Johnson",
+                    "motivation": "\"for studies of how institutions are formed and affect prosperity\"",
+                    "share": "3"
+                },
+                {
+                    "id": "1046",
+                    "firstname": "James",
+                    "surname": "Robinson",
+                    "motivation": "\"for studies of how institutions are formed and affect prosperity\"",
+                    "share": "3"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "year": "2024",
+            "category": "literature",
+            "laureates": [
+                {
+                    "id": "1042",
+                    "firstname": "Kang",
+                    "surname": "Han",
+                    "motivation": "\"for her intense poetic prose that confronts historical traumas and exposes the fragility of human life\"",
+                    "share": "1"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "year": "2024",
+            "category": "peace",
+            "laureates": [
+                {
+                    "id": "1043",
+                    "motivation": "\"for its efforts to achieve a world free of nuclear weapons and for demonstrating through witness testimony that nuclear weapons must never be used again\"",
+                    "share": "1",
+                    "firstname": "Nihon Hidankyo"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "year": "2024",
+            "category": "physics",
+            "laureates": [
+                {
+                    "id": "1037",
+                    "firstname": "John",
+                    "surname": "Hopfield",
+                    "motivation": "\"for foundational discoveries and inventions that enable machine learning with artificial neural networks\"",
+                    "share": "2"
+                },
+                {
+                    "id": "1038",
+                    "firstname": "Geoffrey",
+                    "surname": "Hinton",
+                    "motivation": "\"for foundational discoveries and inventions that enable machine learning with artificial neural networks\"",
+                    "share": "2"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "year": "2024",
+            "category": "medicine",
+            "laureates": [
+                {
+                    "id": "1035",
+                    "firstname": "Victor",
+                    "surname": "Ambros",
+                    "motivation": "\"for the discovery of microRNA and its role in post-transcriptional gene regulation\"",
+                    "share": "2"
+                },
+                {
+                    "id": "1036",
+                    "firstname": "Gary",
+                    "surname": "Ruvkun",
+                    "motivation": "\"for the discovery of microRNA and its role in post-transcriptional gene regulation\"",
+                    "share": "2"
+                }
+            ]
+        }
+    ]
+}
