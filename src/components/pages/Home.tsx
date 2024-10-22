@@ -1,5 +1,6 @@
 import { useQuery, useMutation } from "@tanstack/react-query";
 import nobelPrizeList from "../../fixtures/prizes.json";
+import React, { ReactNode } from "react";
 
 export const Home = () => {
   const prizes = nobelPrizeList.prizes;
@@ -15,6 +16,14 @@ export const Home = () => {
   if (prizeQuery.isLoading) return <p>Loading...</p>;
   if (prizeQuery.isError) return <pre>{JSON.stringify(prizeQuery.error)}</pre>;
 
+  type LProps = {
+    id: string;
+    firstname: string;
+    surname: string;
+    motivation: string;
+    share: string;
+  };
+
   return (
     <>
       <ul>
@@ -25,13 +34,14 @@ export const Home = () => {
                 {prize.category.toUpperCase()} - {prize.year}
               </h3>
               <ul>
-                {prize.laureates.map((laureate: any) => (
+                {prize.laureates.map((laureate: LProps) => (
                   <li
                     style={{ fontSize: "large", fontStyle: "italic" }}
                     key={laureate.id}
                   >
                     {laureate.firstname} {laureate.surname} -
-                    {laureate.motivation}
+                    {laureate.motivation}{" "}
+                    {Number(laureate.share) > 1 ? "-\nshared price" : ""}
                   </li>
                 ))}
               </ul>
