@@ -1,6 +1,6 @@
 import { useQuery, useMutation } from "@tanstack/react-query";
 import nobelPrizeList from "../../fixtures/prizes.json";
-import React, { ReactNode } from "react";
+
 
 export const Home = () => {
   const prizes = nobelPrizeList.prizes;
